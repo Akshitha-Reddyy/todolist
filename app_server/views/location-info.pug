@@ -1,0 +1,26 @@
+block content
+    .row.banner
+        .col-12
+            h1 Tasks
+    .row
+        .col-12.col-lg-9
+            .row
+                .col-12.col-md-6
+                    .card.card-primary
+                        .card-block
+                            h2.card-title Add a task
+                            form(action="/addtask", method="POST")
+                                .form-group.row
+                                    label.col-sm-2.col-form-label(for="task") Task
+                                    .col-sm-10
+                                        textarea#task.form-control(name="task")
+                                .form-group.row
+                                    label.col-sm-2.col-form-label(for="status") Status
+                                    .col-sm-10
+                                        label
+                                            input(type="radio", name="status", value="Completed") 
+                                            | Completed
+                                        label
+                                            input(type="radio", name="status", value="Not Completed") 
+                                            | Not Completed
+                                button(type="submit") Add my to-do

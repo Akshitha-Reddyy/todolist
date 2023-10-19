@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width,initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/all.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar.fixed-top.navbar-expand-md.navbar-light
+      .container
+          a.navbar-brand(href='/') Docket
+            button.navbar-toggler(type='button', data-toggle='collapse',data-target='#navbarMain')
+              span.navbar-toggler-icon
+          #navbarMain.navbar-collapse.collapse
+            ul.navbar-nav.mr-auto
+              li.nav-item
+                a.nav-link(href='/about/') About
+            
+    .container.content
+      block content
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha512-M+qMI1PHRcYcOpJzeJlaWbVVx2JJyPIwZas8or7dc97LZOokjvbpfRxymhVtlJLyjiF3wGyr0FJOA4DLONLVLw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha512-ldc1sPu1FZ8smgkgp+HwnYyVb1eRn2wEmKrDg1JqPEb02+Ei4kNzDIQ0Uwh0AJVLQFjJoWwG+764x70zy5Tv4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    script(src='/javascripts/bootstrap.min.js')

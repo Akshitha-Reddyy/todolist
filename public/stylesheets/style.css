@@ -1,0 +1,137 @@
+@import url("//fonts.googleapis.com/css?family=Tangerine|Cabin:400,700");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Tangerine', cursive;
+  font-size: xxx-large;
+}
+
+legend {
+  font-family: 'Tangerine', cursive;
+}
+
+.navbar {
+  background-color: black;
+  border-color: rgb(224,183,246);
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Tangerine', cursive;
+  color: rgb(224,183,246);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgb(224,183,246);
+  border-color: rgb(224,183,246);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svgxml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(224,183,246);
+}
+
+.card {
+  background-color: rgb(224,183,246);
+  padding: 1rem;
+}
+
+.form {
+  background-color: rgb(224,183,246);
+  padding: 1rem;
+  color: black;
+}
+
+.card-primary {
+  border-color: rgb(224,183,246);
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.banner {
+  margin-top: 4em;
+  border-bottom: 1px solid rgb(224,183,246);
+  margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.review-header {
+  background-color: rgb(224,183,246);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.review {
+  margin-right: -16px;
+  margin-left: -16px;
+  margin-bottom: 0.5em;
+}
+
+.badge-default,
+.btn-primary {
+  background-color: black;
+  border-color: black;
+}
+
+h4 a,
+h4 a:hover {
+  color: black;
+}
+
+h4 small {
+  font-size: 60%;
+  line-height: 200%;
+  color: black;
+}
+
+h1 small {
+  color: black;
+}
+
+.address {
+  margin-bottom: 0.5rem;
+}
+
+.facilities span.badge {
+  margin-right: 2px;
+}
+
+p {
+  margin-bottom: 0.65rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding-right: 6px;
+}
+
+a:hover {
+  color: black;
+}
+
+.fa-star{
+  color: black;
+  font-size: medium;
+}
+
+span.badge.badge-warning {
+  font-size: 75%;
+  color: black;
+  background-color: rgb(224,183,246);
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  color: black;
+  background-color: rgb(224,183,246);
+}
